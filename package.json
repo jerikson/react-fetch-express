@@ -1,0 +1,32 @@
+{
+  "name": "react-fetch-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon -w server.js",
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerikson/react-fetch-express.git"
+  },
+  "author": "Jimmy Erikson <jimmyerikson@gmail.com> (http://jimmyerikson.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerikson/react-fetch-express/issues"
+  },
+  "homepage": "https://github.com/jerikson/react-fetch-express#readme",
+  "dependencies": {
+    "babel-preset-react": "6.3.13",
+    "babelify": "7.2.0",
+    "body-parser": "1.14.2",
+    "express": "4.13.4",
+    "fetch": "1.0.0",
+    "nodemon": "1.8.1",
+    "react": "0.14.6",
+    "react-bootstrap": "0.28.2",
+    "react-dom": "0.14.6",
+    "watchify": "3.7.0"
+  }
+}
